@@ -32,7 +32,7 @@ setMovies(response.data.results)
     console.log(id)
     axios.get(`/movie/${id}/videos?api_key=${API_KEY}&language=en-US`).then(response=>{
       console.log(response.data)
-      if(response.data.results.length!=0){
+      if(response.data.results.length!==0){
         setUrlId(response.data.results[0])
       }
       else{
@@ -45,7 +45,7 @@ setMovies(response.data.results)
       <h2>{props.title}</h2>
       <div className='rowposters'>
         {movies.map((obj)=>
-          <img onClick={()=>handleMovie(obj.id)} className={props.isSmall?'smallPoster':'poster'} src={`${imageUrl+obj.backdrop_path}`}></img>
+          <img onClick={()=>handleMovie(obj.id)} className={props.isSmall?'smallPoster':'poster'} src={`${imageUrl+obj.backdrop_path}`} alt="movie"></img>
 
         
         )}
