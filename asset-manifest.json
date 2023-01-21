@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Divya-256.github.io/Netflix_clone/static/css/main.9666524f.css",
+    "main.js": "/Divya-256.github.io/Netflix_clone/static/js/main.ccfb1f8b.js",
+    "index.html": "/Divya-256.github.io/Netflix_clone/index.html",
+    "main.9666524f.css.map": "/Divya-256.github.io/Netflix_clone/static/css/main.9666524f.css.map",
+    "main.ccfb1f8b.js.map": "/Divya-256.github.io/Netflix_clone/static/js/main.ccfb1f8b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9666524f.css",
+    "static/js/main.ccfb1f8b.js"
+  ]
+}
